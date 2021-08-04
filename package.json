@@ -1,5 +1,5 @@
 {
-    "name": "markdown-editer",
+    "name": "markdown-editar",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -9,14 +9,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Miyashita273/markdown-editer.git"
+        "url": "git+https://github.com/Miyashita273/markdown1.git"
     },
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/Miyashita273/markdown-editer/issues"
+        "url": "https://github.com/Miyashita273/markdown1/issues"
     },
-    "homepage": "https://github.com/Miyashita273/markdown-editer#readme",
+    "homepage": "https://github.com/Miyashita273/markdown1#readme",
     "dependencies": {
         "@types/react": "^17.0.15",
         "@types/react-dom": "^17.0.9",
