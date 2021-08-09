@@ -96,7 +96,6 @@ export const Editor: React.FC<Props> = (props) => {
         />
         <Preview>
           <div dangerouslySetInnerHTML={{ __html: html }}
-            children={text}
           />
         </Preview>
       </Wrapper>

@@ -1,8 +1,10 @@
 import * as React from 'react'
+
 import {
     Link,
     useHistory,
 } from 'react-router-dom'
+
 import styled from 'styled-components'
 import { Header } from '../components/header'
 
@@ -80,6 +82,8 @@ const PagingButton = styled.button`
 interface Props {
     setText: (text: string) => void
 }
+
+
 export const History: React.FC<Props> = (props) => {
     const { setText } = props
     const [memos, setMemos] = useState<MemoRecord[]>([])
@@ -113,7 +117,7 @@ export const History: React.FC<Props> = (props) => {
                 </Header>
             </HeaderArea>
             <Wrapper>
-                {memos.map(memo => (
+                {memos.map((memo) => {
                     <Memo
                         key={memo.datetime}
                         onClick={() => {
@@ -124,7 +128,8 @@ export const History: React.FC<Props> = (props) => {
                         <MemoTitle>{memo.title}</MemoTitle>
                         <MemoText>{memo.text}</MemoText>
                     </Memo>
-                ))}
+
+                })}
             </Wrapper>
             <Paging>
                 <PagingButton
